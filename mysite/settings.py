@@ -25,12 +25,7 @@ SECRET_KEY = 'j)k%s4ausf-0n8b$dg*3fr^z5cq)bb@8f_4+ao#87&=ky1z0j-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
-=======
-ALLOWED_HOSTS = []
-
->>>>>>> 5773a95e3b393d0631a1ca34df857fe64e36cb4d
 
 # Application definition
 
@@ -41,10 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'blog',
-=======
->>>>>>> 5773a95e3b393d0631a1ca34df857fe64e36cb4d
 ]
 
 MIDDLEWARE = [
@@ -113,11 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-<<<<<<< HEAD
 #TIME_ZONE = 'UTC'
-=======
-TIME_ZONE = 'UTC'
->>>>>>> 5773a95e3b393d0631a1ca34df857fe64e36cb4d
 
 USE_I18N = True
 
@@ -130,7 +118,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-=======
->>>>>>> 5773a95e3b393d0631a1ca34df857fe64e36cb4d
