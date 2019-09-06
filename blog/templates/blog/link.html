@@ -1,0 +1,7 @@
+{% extends "blog/header.html" %}
+
+{% block content %}
+	{% for userinfo in object_list %}
+	  <h5>{{ userinfo.firstName}}<a href="/blog/{{userinfo.id}}"> {{userinfo.lastName}}</a></h5>
+	{% endfor %}
+{% endblock %}
